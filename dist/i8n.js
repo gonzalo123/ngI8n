@@ -33,9 +33,13 @@
         })
 
         .filter('i8n', ['i8n', function (i8n) {
-            return function (key) {
+            var i8nFilter = function (key) {
                 return i8n.translate(key);
             };
+
+            i8nFilter.$stateful = true;
+
+            return i8nFilter;
         }])
     ;
 })();
