@@ -1,8 +1,10 @@
 AngularJS i8n provider
 =================
+[![Build Status](https://travis-ci.org/gonzalo123/ngI8n.svg?branch=master)](https://travis-ci.org/gonzalo123/ngI8n)
+
 Code licensed under MIT License.
 
-Allows to use [hello.js](http://adodson.com/hello.js/) with AngularJS 
+Yet another i8n AngularJS provider
 
 ## Example
 
