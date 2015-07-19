@@ -8,27 +8,6 @@ Allows to use [hello.js](http://adodson.com/hello.js/) with AngularJS
 
 ```js
     .config(function (i8nProvider, Conf) {
-
-        $urlRouterProvider.otherwise('/home');
-
-        $stateProvider
-            .state('conf', {
-                url: '/conf',
-                templateUrl: 'templates/conf.html',
-                controller: 'ConfController'
-            })
-            .state('home', {
-                url: '/home',
-                templateUrl: 'templates/home.html',
-                controller: 'HomeController'
-            })
-            .state('finish', {
-                url: '/finish/:deliveryNote',
-                templateUrl: 'templates/finish.html',
-                controller: 'FinishController'
-            })
-        ;
-
         i8nProvider.init('en', {
            HI: {
                en: 'Hello',
