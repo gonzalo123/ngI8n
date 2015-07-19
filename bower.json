@@ -2,7 +2,11 @@
   "name": "ng-i8n",
   "version": "1.0.0",
   "authors": [
-    "Gonzalo Ayuso <gonzalo123@gmail.com>"
+    {
+      "name": "Gonzalo Ayuso",
+      "email": "gonzalo123@gmail.com",
+      "homepage": "http://gonzalo123.com"
+    }
   ],
   "description": "AngularJS i8n",
   "keywords": [
@@ -12,10 +16,10 @@
   "main": [
     "./dist/i8n.js"
   ],
-  "ignore": [
-    ".jshintrc",
-    "**/*.txt"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gonzalo123/ngI8n.git"
+  },
   "dependencies": {
     "angular": "~1"
   },
@@ -23,8 +27,9 @@
     "angular-mocks": "~1"
   },
   "license": "MIT",
-  "homepage": "http://gonzalo123.com",
   "ignore": [
+    ".jshintrc",
+    "**/*.txt",
     "**/.*",
     "node_modules",
     "bower_components",
