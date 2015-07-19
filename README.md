@@ -34,7 +34,7 @@ Allows to use [hello.js](http://adodson.com/hello.js/) with AngularJS
 
 ## Installing via Bower
 ```
-bower install gonzalo123-i8n
+bower install ng-i8n
 ```
 
 ## Development
