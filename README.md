@@ -11,7 +11,7 @@ Allows to use [hello.js](http://adodson.com/hello.js/) with AngularJS
         i8nProvider.init('en', {
            HI: {
                en: 'Hello',
-               es: 'HOLA'
+               es: 'Hola'
            }
        });
     })
