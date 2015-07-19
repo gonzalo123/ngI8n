@@ -9,7 +9,7 @@ module.exports = function (grunt) {
         cmpnt: grunt.file.readJSON('bower.json'),
 
         banner: '/*! ng-i8n v<%= cmpnt.version %> by Gonzalo Ayuso(gonzalo123@gmail.com) - ' +
-            'http://github.com/gonzalo123/gonzalo123I8n - MIT License */\n',
+            'http://github.com/gonzalo123/ngi8n - MIT License */\n',
 
         jshint: {
             files: ['Gruntfile.js', 'karma.conf.js', 'src/**.js', 'test/**.js'],
