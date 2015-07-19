@@ -1,7 +1,7 @@
 {
-  "name": "gonzalo123I8n",
+  "name": "ng-i8n",
   "version": "1.0.0",
-  "description": "angular i8n",
+  "description": "angular i8n provider",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

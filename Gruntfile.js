@@ -8,7 +8,7 @@ module.exports = function (grunt) {
     grunt.initConfig({
         cmpnt: grunt.file.readJSON('bower.json'),
 
-        banner: '/*! gonzalo123I8n v<%= cmpnt.version %> by Gonzalo Ayuso(gonzalo123@gmail.com) - ' +
+        banner: '/*! ng-i8n v<%= cmpnt.version %> by Gonzalo Ayuso(gonzalo123@gmail.com) - ' +
             'http://github.com/gonzalo123/gonzalo123I8n - MIT License */\n',
 
         jshint: {
