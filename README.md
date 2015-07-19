@@ -6,6 +6,7 @@ Allows to use [hello.js](http://adodson.com/hello.js/) with AngularJS
 
 ## Example
 
+Configure provider with default user language and some data
 ```js
     .config(function (i8nProvider, Conf) {
         i8nProvider.init('en', {
@@ -17,11 +18,13 @@ Allows to use [hello.js](http://adodson.com/hello.js/) with AngularJS
     })
 ```
 
+How to use it within template
 ```html
 <h1 class="title">{{ 'HI' | i8n }}</h1>
 ```
 
-```html
+How to use it from controller
+```js
     .controller('HomeController', function ($scope, i8n) {
         $scope.hi = i8n.traslate('HI');
 
@@ -30,7 +33,6 @@ Allows to use [hello.js](http://adodson.com/hello.js/) with AngularJS
         };
     })
 ```
-
 
 ## Installing via Bower
 ```
