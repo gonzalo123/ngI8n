@@ -1,8 +1,8 @@
 (function () {
     "use strict";
 
-    angular.module('gonzalo123.i8n', [])
-        .provider('i8n', function () {
+    angular.module('gonzalo123.i18n', [])
+        .provider('i18n', function () {
             var myLang = {},
                 userLang = 'en',
                 translate;
@@ -32,14 +32,14 @@
             };
         })
 
-        .filter('i8n', ['i8n', function (i8n) {
-            var i8nFilter = function (key) {
-                return i8n.translate(key);
+        .filter('i18n', ['i18n', function (i18n) {
+            var i18nFilter = function (key) {
+                return i18n.translate(key);
             };
 
-            i8nFilter.$stateful = true;
+            i18nFilter.$stateful = true;
 
-            return i8nFilter;
+            return i18nFilter;
         }])
     ;
 })();

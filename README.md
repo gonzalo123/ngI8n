@@ -1,17 +1,17 @@
-AngularJS i8n provider
+AngularJS i18n provider
 =================
 [![Build Status](https://travis-ci.org/gonzalo123/ngI8n.svg?branch=master)](https://travis-ci.org/gonzalo123/ngI8n)
 
 Code licensed under MIT License.
 
-Yet another i8n AngularJS provider
+Yet another i18n AngularJS provider
 
 ## Example
 
 Configure provider with default user language and some data
 ```js
-    .config(function (i8nProvider, Conf) {
-        i8nProvider.init('en', {
+    .config(function (i18nProvider, Conf) {
+        i18nProvider.init('en', {
            HI: {
                en: 'Hello',
                es: 'Hola'
@@ -22,21 +22,21 @@ Configure provider with default user language and some data
 
 How to use it within template
 ```html
-<h1 class="title">{{ 'HI' | i8n }}</h1>
+<h1 class="title">{{ 'HI' | i18n }}</h1>
 ```
 
 How to use it from controller
 ```js
-    .controller('HomeController', function ($scope, i8n) {
-        $scope.hi = i8n.traslate('HI');
+    .controller('HomeController', function ($scope, i18n) {
+        $scope.hi = i18n.traslate('HI');
 
         $scope.changeLang = function(lang) {
-            i8n.use(lang);
+            i18n.use(lang);
         };
     })
 ```
 
-## Installing via Bower
+## Installing via Bower (be careful. The nae is ng-i8n and not ng-i18n)
 ```
 bower install ng-i8n
 ```

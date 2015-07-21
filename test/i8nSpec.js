@@ -1,9 +1,9 @@
-describe("i8n test", function () {
+describe("i18n test", function () {
 
     var provider;
 
-    beforeEach(module('gonzalo123.i8n', function (i8nProvider) {
-        provider = i8nProvider;
+    beforeEach(module('gonzalo123.i18n', function (i18nProvider) {
+        provider = i18nProvider;
     }));
 
     it('tests translate', inject(function () {
