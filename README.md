@@ -36,7 +36,8 @@ How to use it from controller
     })
 ```
 
-## Installing via Bower (be careful. The nae is ng-i8n and not ng-i18n)
+## Installing via Bower 
+(be careful. The name is ng-i8n and not ng-i18n)
 ```
 bower install ng-i8n
 ```
